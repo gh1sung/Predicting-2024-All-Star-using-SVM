@@ -19,9 +19,6 @@ SVM is used in various real-world applications such as handwriting recognition, 
 The dataset encompasses player statistics from the 2021-2022 NBA seasons, including age, games played, wins, losses, points, field goals made, and more. The target variable is the binary `ALLSTAR` status.
 
 ## Model Training
-
-Certainly! Here's an elaborated explanation of the SVM model using an RBF kernel and the preprocessing steps including feature scaling and SMOTE:
-
 In this project, we've employed a Support Vector Machine (SVM) with a Radial Basis Function (RBF) kernel to predict NBA All-Stars. The RBF kernel is a popular choice in SVM models for its capability to handle non-linear data. It essentially transforms the feature space into a higher dimension where it becomes possible to find a hyperplane that can linearly separate the data, which may not be linearly separable in the original space.
 
 The choice of the RBF kernel comes from its flexibility in managing real-world data where the relationship between class labels and attributes is often non-linear. By applying this kernel, the SVM can map the input features into a multidimensional space using a Gaussian function and find a decision boundary that maximizes the margin between the classes.
